@@ -1,0 +1,33 @@
+
+/* adding the bitCount ink font to h1*/
+
+h1{
+    text-align: center;
+    font-family: 'Bitcount Ink', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #FFCC4D;
+}
+
+body.home-page {
+    background-color: #2F578A;
+    
+}
+
+body.about-page {
+    background-color: #232F72;
+}
+
+.dropdown {
+    position: absolute;
+    display: 20px;
+}
+
+/* simple hamburger menu button */
+.dropdown button {
+    background-color: #121358;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}   
