@@ -3,11 +3,82 @@
 <head>
     <!-- link the CSS style -->
     <link rel="stylesheet" href="CSS/style.css">
+
     <title>About Us</title>
+
+
+     <style>
+        /* Special layout for centering the greeting and cat gif on the About page */
+        .about-hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 40px;
+        }
+        .about-content {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+            padding: 0 20px;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+    </style>
     
 </head>
 
 <body class="about-page">
+
+    <!-- Same Navigation Bar as Index Page -->
+    <header class="header">
+
+        <div class="dropdown">
+            <button class="dropdown-button">☰</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="community.html">Community/Forum</a>
+                <a href="calendar.html">Calendar/Event</a>
+                <a href="shop.html">Shop</a>
+            </div>
+        </div>
+
+        <h1>✨ About Anime Haven ✨</h1>
+
+        <a href="profile.html" class="profile-btn">Profile</a>
+
+        
+    </header>
+
+    <!-- Centered "Hi there!" with the cat gif right next to it -->
+    <div class="about-hero">
+        <h2 style="margin: 0; font-size: 36px;">Hi there!</h2>
+        <img src="images/black_cat.gif" alt="black cat peeping out" style="width:70px; height:70px;">
+    </div>
+
+
+    <!--Make the About Us intro inside a chat bubble look-->
+    <div class="about-content-bubble">
+        <p> Welcome to your ultimate cozy corner for all things anime! 🌸 
+        I'm <strong>Sofia Martinez</strong>, the creator behind this space. 
+        Whether you're here to geek out over figures, track upcoming events, 
+        or share community theories, I built Anime Haven to capture the pure magic of fandom life. 
+        Grab a snack, get comfortable, and let's dive into the animeverse together!!!</p>
+
+    </div>
+
+    <!-- <nav>   
+        <li><a href="index.html">Home</a></li>
+        <li><a href="community.html">Community/Forum</a></li>
+        <li><a href="calendar.html">Calendar/Event</a></li>
+        <li><a href="shop.html">Shop</a></li>
+    </nav>   -->
+
+</body>
+</html>
+
+
+<!-- <body class="about-page">
     <h2>Hi there!</h2>
     
     <img src="images/black_cat.gif" alt="black cat peeping out" style="width:100px;height:100px;">
@@ -22,4 +93,4 @@
     <p> First, a big warm welcome to Anime Haven!!! My name is Sofia Martinez and this a fun website to capture the spirit of anime fandom </p>
 
 </body>
-</html>
+</html> -->
