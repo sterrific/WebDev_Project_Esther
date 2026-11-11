@@ -170,11 +170,10 @@ body.about-page, body.calendar-page, body.community-page, body.profile-page {
 /* hover effect for the links inside the menu */
 .dropdown-content a:hover {
     background-color: #FF7171;
-    color: #FFF3E3; /* Text turns cream when hovered */
+    color: #FFF3E3; /* Text turns cream color when hovered */
 }
 
-/*pic carousel style*/
-/* --- PURE CSS SHOWCASE CAROUSEL --- */
+/*image carousel style*/
 .showcase-container {
     max-width: 600px; /* Controls the size so it sits neatly in the middle */
     margin: 40px auto;
@@ -226,7 +225,7 @@ body.about-page, body.calendar-page, body.community-page, body.profile-page {
     width: 35px;
     height: 35px;
     line-height: 35px;
-    background-color: #FFF3E3; /* Warm Cream from your palette */
+    background-color: #FFF3E3; /* Warm Cream color */
     color: #2F3272;
     font-weight: bold;
     text-decoration: none;
